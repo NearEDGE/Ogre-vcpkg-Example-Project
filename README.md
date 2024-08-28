@@ -9,7 +9,7 @@ While following the Ogre guide you may get down to the section titled [Installin
 
 Spoiler: They won't.
 
-This respository contains a pre-configured project that should have taken care of all of the necessary steps for getting your first project working with Ogre. 
+This repository contains a pre-configured project that should have taken care of all of the necessary steps for getting your first project working with Ogre. 
 
 Feel free to use this as a base for your future projects as well!
 
@@ -23,7 +23,7 @@ To start off with, this all assumes that you've installed Ogre using vcpkg. This
 vcpkg install ogre
 ```
 
-If you don't have vcpkg added to your PATH enviornment variable, you'll have to open your Terminal to the directory where you installed vcpkg.
+If you don't have vcpkg added to your PATH environment variable, you'll have to open your Terminal to the directory where you installed vcpkg.
 
 With Ogre installed via vcpkg, clone this repository and open the folder in Visual Studio. CMake should configure and you shouldn't run into any issues.
 
