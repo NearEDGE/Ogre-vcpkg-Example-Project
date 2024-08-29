@@ -64,6 +64,10 @@ void BasicTutorial1::setup()
 
     // get a pointer to the already created root
     Root* root = getRoot();
+
+    // Needed to have the textures load properly
+    root->loadPlugin("Codec_STBI");
+
     SceneManager* scnMgr = root->createSceneManager();
 
     // register our scene with the RTSS
